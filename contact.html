@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+        <title>
+            Bob Koorn | Contact
+        </title>
+    </head>
+    <body>
+        <header>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Over mij</a></li>
+                    <li class="nav_middle"><a href="mijncv.html">Mijn cv</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1>Contact</h1>
+            <p>Hebt u vragen of opmerkingen voor mij, neem dan via het onderstaande formulier contact met mij op.</p>
+            <form id="contact" action="https://formspree.io/f/xgeboyro" method="post">
+                <fieldset>
+                    <legend>persoonlijke gegevens</legend>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="width200"><label for="voornaam">voornaam:</label></td>
+                                <td><input id="voornaam" type="text" name="voornaam" placeholder="uw voornaam"></td>
+                            </tr>
+                            <tr>
+                                <td class="width200"><label for="achternaam">achternaam:</label></td>
+                                <td><input id="achternaam" type="text" name="achternaam" placeholder="uw achternaam"></td>
+                            </tr>
+                            <tr>
+                                <td>geslacht:</td>
+                                <td>
+                                    <input type="radio" name="geslacht" value="man">man&emsp;
+                                    <input type="radio" name="geslacht" value="vrouw">vrouw
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="adres">adres:</label></td>
+                                <td><input id="adres" type="text" name="adres" placeholder="uw adres"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="postcode">postcode:</label></td>
+                                <td><input id="postcode" type="text" name="postcode" placeholder="uw postcode"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="woonplaats">woonplaats:</label></td>
+                                <td><input id="woonplaats" type="text" name="woonplaats" placeholder="uw woonplaats"></td>
+                            </tr>
+                            <tr>
+                                <td>telefoonnummer:</td>
+                                <td><input id="telefoonnummer" type="tel" name="telefoonnummer" placeholder="uw telefoonnummer"></td>
+                            </tr>
+                            <tr>
+                                <td>e-mailadres:</td>
+                                <td><input id="e-mailadres" type="email" name="e-mailadres" placeholder="uw e-mailadres"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>vraag of opmerking</legend>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="width200">uw bericht aan mij:</td>
+                                <td><textarea id="bericht" name="bericht" maxlength="1500" placeholder="uw vraag of opmerking"></textarea></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+                <button id="submit" type="submit">Verstuur</button>
+            </form>
+        </article>
+        <footer>
+            <p>&copy; copyright 2023</p>
+        </footer>
+    </body>
+</html>

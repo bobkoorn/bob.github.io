@@ -1,0 +1,195 @@
+body {
+    text-align:center;
+    background-color:grey;
+    font-family: 'Ubuntu';
+    font-weight:300;
+    line-height: 1.4em;
+}
+
+header {
+    display:block;
+    background-color:cadetblue;
+    padding:10px;
+    margin-right:50px;
+    margin-left:50px;
+    border-radius:5px;
+}
+
+nav {
+    display:inline-block;
+    font-weight: 500;
+    text-transform:uppercase;
+}
+
+article {
+    display:block;
+    background-color:cadetblue;
+    padding:10px;
+    margin-top:10px;
+    margin-right:50px;
+    margin-bottom:10px;
+    margin-left:50px;
+    border-radius:5px;
+}
+
+footer {
+    display:block;
+    background-color:cadetblue;
+    padding:10px;
+    margin-right:50px;
+    margin-left:50px;
+    font-weight:500;
+    color:white;
+    border-radius:5px;
+}
+
+a {
+    cursor:pointer;
+    text-decoration: none;
+    color:white;
+}
+
+h1 {
+    text-transform:uppercase;
+    padding:10px;
+}
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+li {
+    display:inline-block;
+    text-align: center;
+}
+
+form {
+    display:inline-block;
+}
+
+fieldset {
+    text-align:left;
+    display:block;
+    margin-bottom:10px;
+    width:500px;
+    border-radius:5px;
+}
+
+li a {
+    display:inline-block;
+    background-color:teal;
+    width:150px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:5px;
+}
+
+li a:hover {
+    background-color:white;
+}
+
+li:hover a{
+    color:teal;
+}
+
+article p{
+    text-align:center;
+    display:block;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+footer p{
+    background-color:teal;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:inline-block;
+    margin:0;
+    width:470px;
+    border-radius:5px;
+}
+
+legend {
+    font-weight:500;
+}
+
+tr {
+    vertical-align:top;
+}
+
+img {
+    border-radius:5px;
+}
+
+.nav_middle {
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.width150 {
+    width:150px;
+}
+
+.width200 {
+    width:200px;
+}
+
+#cv {
+    display:inline-block;
+    text-align:left;
+}
+
+#submit {
+    display: inline-block;
+    width:150px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:1em;
+    border-style:none;
+    text-align: center;
+    background-color:teal;
+    cursor:pointer;
+    text-decoration: none;
+    color:white;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    text-transform:uppercase;
+    border-radius:5px;
+}
+
+#submit:hover {
+    color:teal;
+    background-color:white;
+}
+
+#submit:active {
+    color:black;
+    background-color:grey;
+}
+
+#voornaam,#achternaam,#adres,#postcode,#woonplaats,#telefoonnummer,#e-mailadres {
+    width:300px;
+    height:25px;
+    border-style:solid;
+    border-color:teal;
+    border:2px;
+    box-sizing:border-box;
+    border-radius:5px;
+    box-shadow:none
+}
+
+#bericht {
+    width:300px;
+    height:100px;
+    border-style:solid;
+    border-color:teal;
+    border:2px;
+    box-sizing:border-box;
+    border-radius:5px;
+    box-shadow:none
+}
+
+#foto {
+    width:300px;
+}
